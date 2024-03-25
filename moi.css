@@ -1,0 +1,57 @@
+ a {
+	text-decoration: none;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between; /*met le h1 à droite et les h2 à gauche*/
+	background-color: black;
+	padding: 16px; /*élargit navbar*/
+}
+
+.logo_title, .navbar ul li a {
+	color: white; /* met les écritures en blanc*/
+}
+
+.navbar ul {
+	display: flex;
+	align-items: center; /* met les écritures à la suite et pas en colonne*/
+	list-style-type: none; /* enlève les points de la liste*/
+}
+
+.navbar ul li a {
+		padding: 12px; /*espace entre écritures*/
+		margin: 0 6px;
+}
+
+.navbar ul li a:hover{
+	/* quand on met souris sur différents liens*/
+	color: lightblue;
+	background-color : blue;
+	border-radius: 4px;
+}
+
+.afc {
+	font-family: "Frijole", system-ui;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 80px;
+	color: red;
+}
+
+.logo_afc {
+    max-width: 30%;
+    display: block;
+	float: left;
+	/*width: 116px;  largeur en pixel de ta photo*/
+	/*height:104px;  hauteur en pixel de ta photo */
+	/*margin-right:10px; marge en pixel à droite de la photo */
+
+}
+
+
+img {
+	display: block;
+	margin: 0 auto;
+	max-width:38%;
+}

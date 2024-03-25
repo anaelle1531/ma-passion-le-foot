@@ -1,0 +1,89 @@
+html {
+    background-color:white;
+}
+
+body {
+    width: 96%;
+    padding: 10px;
+	font-family: serif;
+}
+
+h1 {
+    text-align: center;
+	color: rgb(230, 100, 100);
+    border-radius: 30px;
+}
+
+h2 {
+    padding: 10px;
+    border: dashed;
+    border-radius: 30px;
+	font-family: "Lora", system-ui;
+}
+
+h3 {
+    padding: 10px;
+    border-radius: 30px;
+}
+
+p {
+    text-indent: 5%;
+}
+
+img {
+    max-width: 30%;
+    display: block;
+	margin-left:10px;
+	/*width: 100px;  largeur en pixel de ta photo */
+	/*height:75px;  hauteur en pixel de ta photo */
+	/*margin-right:10px; marge en pixel à droite de la photo */
+
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.en_couleur {
+    color: rgb(230, 100, 100);
+}
+
+.centre {
+	max-width: 50%;
+	display: flex 
+}
+
+a {
+	text-decoration: none;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between; /*met le h1 à droite et les h2 à gauche*/
+	background-color: black;
+	padding: 16px; /*élargit navbar*/
+}
+
+.logo_title, .navbar ul li a {
+	color: white; /* met les écritures en blanc*/
+}
+
+.navbar ul {
+	display: flex;
+	align-items: center; /* met les écritures à la suite et pas en colonne*/
+	list-style-type: none; /* enlève les points de la liste*/
+}
+
+.navbar ul li a {
+		padding: 12px; /*espace entre écritures*/
+		margin: 0 6px;
+}
+
+.navbar ul li a:hover{
+	/* quand on met souris sur différents liens*/
+	color: lightblue;
+	background-color : blue;
+	border-radius: 4px;
+}
