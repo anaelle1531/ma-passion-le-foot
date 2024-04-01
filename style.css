@@ -47,7 +47,7 @@ iframe {
 }
 
 .en_couleur {
-    color: rgb(230, 100, 100);
+    color: rgb(34, 62, 110);
 }
 
 .centre {
@@ -62,7 +62,7 @@ a {
 .navbar {
 	display: flex;
 	justify-content: space-between; /*met le h1 à droite et les h2 à gauche*/
-	background-color: dark blue;
+	background-color: rgb(144, 54, 54);
 	padding: 16px; /*élargit navbar*/
 }
 
