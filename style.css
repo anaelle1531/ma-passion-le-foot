@@ -1,5 +1,5 @@
 html {
-    background-color:white;
+    background-color:rgb(34, 62, 110);
 }
 
 body {
@@ -47,7 +47,7 @@ iframe {
 }
 
 .en_couleur {
-    color: rgb(34, 62, 110);
+    color: white;
 }
 
 .centre {
