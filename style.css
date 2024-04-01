@@ -62,7 +62,7 @@ a {
 .navbar {
 	display: flex;
 	justify-content: space-between; /*met le h1 à droite et les h2 à gauche*/
-	background-color: black;
+	background-color: dark blue;
 	padding: 16px; /*élargit navbar*/
 }
 
