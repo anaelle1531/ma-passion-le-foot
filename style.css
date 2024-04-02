@@ -6,13 +6,13 @@ body {
     width: 96%;
     padding: 10px;
     font-family: serif;
+	color: white;
 }
 
 h1 {
     text-align: center;
     color: rgb(230, 100, 100);
     border-radius: 30px;
-	font-color: white;
 }
 
 h2 {
@@ -20,18 +20,15 @@ h2 {
     border: dashed;
     border-radius: 30px;
 	font-family: "Lora", system-ui;
-	font-color: white;
 }
 
 h3 {
     padding: 10px;
     border-radius: 30px;
-	font-color: white;
 }
 
 p {
     text-indent: 5%;
-	font-color: white;
 }
 
 img {
