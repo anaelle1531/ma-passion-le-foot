@@ -55,12 +55,12 @@ iframe {
     color: rgb(226,45,69);
     text-decoration: underline;
     font-family: "Luckiest Guy", cursive;
-    font-weight: 1000;
+    font-size: 30px;
 }
 
 .le_savais_tu {
     color : rgb(5,125,134);
-    font-family : "Monoton", sans-serif;
+    font-family: "Frijole", system-ui;
     font-size : 20px;
 }
 
