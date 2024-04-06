@@ -89,8 +89,8 @@ a {
 	border-radius: 4px;
 }
 
-.actu-foot: hover {
-	color : lightorange;
+.actu-foot:hover{
+	color : rgb(255,153,102);
 }
 
 .histoires: hover {
