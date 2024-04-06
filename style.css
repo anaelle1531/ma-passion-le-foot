@@ -59,8 +59,9 @@ iframe {
 }
 
 .le_savais_tu {
-    font-weight : 300;
     color : rgb(152,250,145);
+    font-family : "Monoton", sans-serif;
+    font-size : 20px;
 }
 
 .centre {
