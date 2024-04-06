@@ -9,7 +9,7 @@ function restaure_lyon(){
 }
 function change_egalite(){
     let img = document.getElementById("lyon"); // acces a l'element HTML par son id
-    img.setAttribute("src", "egalite2.jpg"); // modification d'un attribut de l'element HTML
+    img.setAttribute("src", "egalite2.png"); // modification d'un attribut de l'element HTML
 }
 
 function restaure_egalite(){
