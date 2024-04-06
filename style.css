@@ -54,6 +54,7 @@ iframe {
 .titresom {
     color: rgb(255,102,51);
     font-size : 40px;
+    text-decoration: underline;
 }
 
 .centre {
