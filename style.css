@@ -84,7 +84,7 @@ a {
 
 .navbar ul li a:hover{
 	/* quand on met souris sur différents liens*/
-	color: lightblue;
+	color: rgb(255,153,102);
 	background-color : blue;
 	border-radius: 4px;
 }
