@@ -1,0 +1,111 @@
+html {
+    background-color: white;
+}
+
+body {
+    width: 96%;
+    padding: 10px;
+    font-family: serif;
+    color : black;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(230, 100, 100);
+    border-radius: 30px;
+}
+
+h2 {
+    padding: 10px;
+    border: dashed;
+    border-radius: 30px;
+	font-family: "Lora", system-ui;
+}
+
+h3 {
+    padding: 10px;
+    border-radius: 30px;
+}
+
+p {
+    text-indent: 5%;
+}
+
+img {
+    max-width: 30%;
+    display: block;
+	margin-left:10px;
+	/*width: 100px;  largeur en pixel de ta photo */
+	/*height:75px;  hauteur en pixel de ta photo */
+	/*margin-right:10px; marge en pixel à droite de la photo */
+
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.en_couleur {
+    color: rgb(17,2,95);
+}
+
+.titresom {
+    color: rgb(226,45,69);
+    text-decoration: underline;
+    font-family: "Luckiest Guy", cursive;
+    font-size: 30px;
+}
+
+.le_savais_tu {
+    color : rgb(5,125,134);
+    font-family: "Frijole", system-ui;
+    font-size : 20px;
+}
+
+.centre {
+	max-width: 50%;
+	display: flex 
+}
+
+a {
+	text-decoration: none;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between; /*met le h1 à droite et les h2 à gauche*/
+	background-color: rgb(144, 54, 54);
+	padding: 16px; /*élargit navbar*/
+}
+
+.logo_title, .navbar ul li a {
+	color: white; /* met les écritures en blanc*/
+}
+
+.navbar ul {
+	display: flex;
+	align-items: center; /* met les écritures à la suite et pas en colonne*/
+	list-style-type: none; /* enlève les points de la liste*/
+}
+
+.navbar ul li a {
+		padding: 12px; /*espace entre écritures*/
+		margin: 0 6px;
+}
+
+.navbar ul li a:hover{
+	/* quand on met souris sur différents liens*/
+	color: white;
+	background-color : rgb(255,153,102);
+	border-radius: 4px;
+}
+
+.actu:hover{
+	color : rgb(255,153,102);
+}
+
+.histoires: hover {
+	color : rgb(255,153,102);
+}
