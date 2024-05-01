@@ -25,3 +25,13 @@ function restaure_socrates(){
     let socrates_img = document.getElementById("socrates"); // acces a l'element HTML par son id
     socrates_img.setAttribute("src", "socrates1.jpg"); // modification d'un attribut de l'element HTML
 }
+
+function change_science(){
+    let science_img = document.getElementById("science"); // acces a l'element HTML par son id
+    socrates_img.setAttribute("src", "science2.jpg"); // modification d'un attribut de l'element HTML
+}
+
+function restaure_science(){
+    let science_img = document.getElementById("science"); // acces a l'element HTML par son id
+    socrates_img.setAttribute("src", "science1.jpg"); // modification d'un attribut de l'element HTML
+}
