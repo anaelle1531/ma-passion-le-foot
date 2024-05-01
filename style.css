@@ -110,3 +110,10 @@ a {
 	color : rgb(255,153,102);
 }
 
+.titres_images {
+    color: gray ;
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: 350 ;
+    font-style: normal;
+}
