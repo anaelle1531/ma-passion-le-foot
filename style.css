@@ -111,9 +111,9 @@ a {
 }
 
 .titres_images {
-    color: rgb(82,77,77) ;
+    color: rgb(102,102,204) ;
     font-family: "Platypi", serif;
     font-optical-sizing: auto;
-    font-weight: 350 ;
+    font-weight: 600 ;
     font-style: normal;
 }
