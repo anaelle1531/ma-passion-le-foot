@@ -30,3 +30,77 @@ a {
 	background-color : rgb(255,153,102);
 	border-radius: 4px;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+.navbar .logo_title {
+    margin: 0;
+    text-align: center;
+    font-size: 2em;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item {
+    padding: 10px;
+}
+
+.grid-item p {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+iframe, .instagram-media {
+    width: 100%;
+    max-width: 560px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Styles spécifiques pour les éléments Instagram */
+.instagram-media {
+    margin: 0 auto;
+}
+
