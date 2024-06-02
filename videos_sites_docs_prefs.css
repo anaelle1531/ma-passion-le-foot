@@ -44,12 +44,11 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px; /* espaces entre les lignes et entre les colonnes de la grille
+    gap: 20px; /* espaces entre les lignes et entre les colonnes de la grille*/
     padding: 20px;
     max-width: 800px;
     margin: 0 auto;
     background-color: white ;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
 }
 
 .grid-item {
