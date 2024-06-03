@@ -61,6 +61,9 @@ body {
     text-align: center;
     font-size: 1.2em;
     margin-bottom: 10px;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 iframe, .instagram-media {
