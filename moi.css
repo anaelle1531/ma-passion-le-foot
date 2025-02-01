@@ -1,4 +1,42 @@
- a {
+body {
+	width: 92%;
+	padding: 20px;
+	color: black;
+	font-family: 'Poppins', sans-serif;
+	margin: auto;
+	line-height: 1.6; /* Augmente l'espace entre les lignes */
+}
+
+h1 {
+	text-align: center;
+	color: rgb(230, 100, 100);
+	border-radius: 30px;
+	font-family: 'Luckiest Guy', cursive;
+	padding: 15px;
+}
+
+h2 {
+	padding: 15px;
+	border-radius: 20px;
+	font-family: 'Luckiest Guy', cursive;
+	border: dashed 2px rgb(226,45,69);
+	text-align: center;
+	color: rgb(226,45,69);
+}
+
+h3 {
+	padding: 10px;
+	border-radius: 30px;
+	font-family: 'Luckiest Guy', cursive;
+	color: rgb(17,2,95)
+}
+
+p {
+	text-indent: 5%;
+	margin-bottom: 15px;
+}
+
+a {
 	text-decoration: none;
 }
 
