@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+function () {
     
     function change_lyon(){
         let lyon_img = document.getElementById("lyon_img"); // acces a l'element HTML par son id
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }    
 }
 
-document.addEventListener("DOMContentLoaded", function () {
+function () {
     let scrollToTopBtn = document.getElementById("scrollToTop");
     window.addEventListener("scroll", function () {
         if (window.scrollY > 300) {
