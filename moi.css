@@ -23,18 +23,30 @@
 	display: flex;
 	align-items: center; /* met les écritures à la suite et pas en colonne*/
 	list-style-type: none; /* enlève les points de la liste*/
+	list-style: none;
+}
+
+.navbar ul li {
+	margin: 0 15px;
 }
 
 .navbar ul li a {
-		padding: 12px; /*espace entre écritures*/
-		margin: 0 6px;
+	padding: 12px; /*espace entre écritures*/
+	margin: 0 6px;
+	color: white;
+	font-weight: bold;
+	transition: all 0.3s ease;
+	border-radius: 5px;
 }
 
-.navbar ul li a:hover{
+.navbar ul li a:hover {
 	/* quand on met souris sur différents liens*/
-	color: white;
-	background-color : rgb(255,153,102);
+	/*color: white;*/
+	background-color: rgb(255,153,102);
 	border-radius: 4px;
+	background-color: white;
+    	color: rgb(230, 100, 100);
+    	box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
 }
 
 .afc {
