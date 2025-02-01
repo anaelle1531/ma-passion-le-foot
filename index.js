@@ -1,5 +1,4 @@
-function () {
-    
+
     function change_lyon(){
         let lyon_img = document.getElementById("lyon_img"); // acces a l'element HTML par son id
         lyon_img.setAttribute("src", "lyon2.jpg"); // modification d'un attribut de l'element HTML
@@ -37,9 +36,7 @@ function () {
         let science_img = document.getElementById("science_img"); // acces a l'element HTML par son id
         science_img.setAttribute("src", "science1.jpg"); // modification d'un attribut de l'element HTML
     }    
-}
 
-function () {
     let scrollToTopBtn = document.getElementById("scrollToTop");
     window.addEventListener("scroll", function () {
         if (window.scrollY > 300) {
@@ -52,4 +49,3 @@ function () {
     scrollToTopBtn.addEventListener("click", function () {
         window.scrollTo({ top: 0, behavior: "smooth" });
     }
-}
