@@ -5,26 +5,28 @@ html {
 body {
     width: 96%;
     padding: 10px;
-    font-family: serif;
     color : black;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1 {
     text-align: center;
     color: rgb(230, 100, 100);
     border-radius: 30px;
+    font-family: 'Luckiest Guy', cursive;
 }
 
 h2 {
     padding: 10px;
     border: dashed;
     border-radius: 30px;
-	font-family: "Lora", system-ui;
+    font-family: 'Luckiest Guy', cursive;
 }
 
 h3 {
     padding: 10px;
     border-radius: 30px;
+    font-family: 'Luckiest Guy', cursive;
 }
 
 p {
