@@ -37,17 +37,18 @@
         science_img.setAttribute("src", "science1.jpg"); // modification d'un attribut de l'element HTML
     }    
 
-function () {
+document.addEventListener("DOMContentLoaded", function () {
     let scrollToTopBtn = document.getElementById("scrollToTop");
-    function () {
+
+    window.addEventListener("scroll", function () {
         if (window.scrollY > 300) {
             scrollToTopBtn.style.display = "block";
-        } 
-        else {
+        } else {
             scrollToTopBtn.style.display = "none";
         }
-    }
-    function () {
+    });
+
+    scrollToTopBtn.addEventListener("click", function () {
         window.scrollTo({ top: 0, behavior: "smooth" });
-    }
-}
+    });
+});
