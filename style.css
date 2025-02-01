@@ -23,10 +23,11 @@ h1 {
 }
 
 h2 {
-    padding: 10px;
-    border: dashed;
-    border-radius: 30px;
+    padding: 15px;
+    border-radius: 20px;
     font-family: 'Luckiest Guy', cursive;
+    border: dashed 2px rgb(230, 100, 100);
+    text-align: center;
 }
 
 h3 {
@@ -37,6 +38,7 @@ h3 {
 
 p {
     text-indent: 5%;
+    margin-bottom: 15px;
 }
 
 img {
