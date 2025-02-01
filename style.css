@@ -41,9 +41,10 @@ p {
 }
 
 img {
-    max-width: 30%;
-    display: block;
+	max-width: 30%;
+	display: block;
 	margin-left:10px;
+	transition: transform 0.3s ease, opacity 0.3s ease;
 	/*width: 100px;  largeur en pixel de ta photo */
 	/*height:75px;  hauteur en pixel de ta photo */
 	/*margin-right:10px; marge en pixel à droite de la photo */
@@ -141,4 +142,9 @@ a {
     font-optical-sizing: auto;
     font-weight: 600 ;
     font-style: normal;
+}
+
+img:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
 }
