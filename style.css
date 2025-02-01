@@ -118,13 +118,13 @@ a {
 	border-radius: 5px;
 }
 
-.navbar ul li a : hover {
+.navbar ul li a:hover {
 	/* quand on met souris sur différents liens*/
 	/*color: white;*/
 	background-color: rgb(255,153,102);
 	border-radius: 4px;
 	background-color: white;
-    	color: rgb(144, 54, 54);
+    	/*color: rgb(144, 54, 54);*/
     	box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
 }
 
