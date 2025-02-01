@@ -10,7 +10,7 @@
     }
     function change_egalite(){
         let egalite_img = document.getElementById("egalite_img"); // acces a l'element HTML par son id
-        egalite_img.setAttribute("src", "egalite2.png"); // modification d'un attribut de l'element HTML
+        egalite_img.setAttribute("src", "egalite2.jpg"); // modification d'un attribut de l'element HTML
     }
 
     function restaure_egalite(){
