@@ -5,7 +5,7 @@ html {
 body {
 	/*width: 96%;*/
 	padding: 20px;
-	color : black;
+	color: black;
 	font-family: 'Poppins', sans-serif;
 	max-width: 1100px;
 	margin: auto;
@@ -26,6 +26,7 @@ h2 {
 	font-family: 'Luckiest Guy', cursive;
 	border: dashed 2px rgb(230, 100, 100);
 	text-align: center;
+	color: rvb(230, 100, 100);
 }
 
 h3 {
@@ -68,9 +69,9 @@ iframe {
 }
 
 .le_savais_tu {
-	color : rgb(5,125,134);
+	color: rgb(5,125,134);
 	font-family: "Frijole", system-ui;
-	font-size : 20px;
+	font-size: 20px;
 }
 
 .centre {
@@ -120,7 +121,7 @@ a {
 .navbar ul li a : hover {
 	/* quand on met souris sur différents liens*/
 	/*color: white;*/
-	background-color : rgb(255,153,102);
+	background-color: rgb(255,153,102);
 	border-radius: 4px;
 	background-color: white;
     	color: rgb(144, 54, 54);
@@ -128,11 +129,11 @@ a {
 }
 
 .actu : hover {
-	color : rgb(255,153,102);
+	color: rgb(255,153,102);
 }
 
 .histoires : hover {
-	color : rgb(255,153,102);
+	color: rgb(255,153,102);
 }
 
 .titres_images {
