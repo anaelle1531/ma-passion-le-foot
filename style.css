@@ -92,6 +92,7 @@ a {
 	/*background: linear-gradient(to right, rgb(144, 54, 54), rgb(255, 153, 102));*/
 	border-radius: 10px;
 	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+	max-width: 1400px;
 }
 
 .logo_title, .navbar ul li a {
