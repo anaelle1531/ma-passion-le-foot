@@ -37,20 +37,19 @@ document.addEventListener("DOMContentLoaded", function () {
         let science_img = document.getElementById("science_img"); // acces a l'element HTML par son id
         science_img.setAttribute("src", "science1.jpg"); // modification d'un attribut de l'element HTML
     }    
-});
+}
 
 document.addEventListener("DOMContentLoaded", function () {
     let scrollToTopBtn = document.getElementById("scrollToTop");
-
     window.addEventListener("scroll", function () {
         if (window.scrollY > 300) {
             scrollToTopBtn.style.display = "block";
-        } else {
+        } 
+        else {
             scrollToTopBtn.style.display = "none";
         }
-    });
-
+    }
     scrollToTopBtn.addEventListener("click", function () {
         window.scrollTo({ top: 0, behavior: "smooth" });
-    });
-});
+    }
+}
