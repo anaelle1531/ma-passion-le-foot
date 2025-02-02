@@ -5,6 +5,7 @@ body {
 	font-family: 'Poppins', sans-serif;
 	margin: auto;
 	line-height: 1.6; /* Augmente l'espace entre les lignes */
+	text-align: center;
 }
 
 h1 {
