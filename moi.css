@@ -99,7 +99,8 @@ a {
 .logo_afc {
     max-width: 30%;
     display: block;
-	float: left;
+    float: left;
+    margin: 0 auto;
 	/*width: 116px;  largeur en pixel de ta photo*/
 	/*height:104px;  hauteur en pixel de ta photo */
 	/*margin-right:10px; marge en pixel à droite de la photo */
