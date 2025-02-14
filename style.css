@@ -3,6 +3,7 @@ html {
 }
 
 body {
+	cursor: url('image_ballon_foot_souris.jpg'), auto;
 	width: 92%;
 	padding: 20px;
 	color: black;
